@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+  <title>Login Page </title>
+</head>
+<body>
+<img src="https://www.coe.int/documents/14181903/15917751/e-voting.jpg/a335973b-ad02-a9e5-8a77-ccc5c7e08e8b?t=1654851073000" >
+
+<marquee behavior="scroll" direction="left" scrollamount="15">ONLINE VOTING SYSTEM</marquee>
+<form action = "l_verify" method = POST>
+ENTER USERNAME  : <input type = text name = "username"><br>
+ENTER PASSWORD  : <input type = password name = "password"><br>
+<label for="role">SELECT ROLE:</label>
+  <select name="role" id="role">
+  <option value="">Select...</option>
+    <option value="Admin">Admin</option>
+    <option value="Voter">Voter</option>
+  </select>
+  <br><br>
+<input type=submit name="LOGIN" value=submit>
+<br><br>
+<a style="font-size:20px; color:#8F00FF " href="/reg">REGISTER</a>
+<br>
+</form>
+</body>
+</html>
